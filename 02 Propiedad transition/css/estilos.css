@@ -1,0 +1,17 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+div#contenedor1{
+  width: 20px;
+  height: 20px;
+  background-color: red;
+  -webkit-transition: width 1s ease-in-out 0s, 
+                      height 1s ease-in-out 1s;
+}
+
+div#contenedor1:hover{
+  width: 900%;
+  height: 400px;
+}
